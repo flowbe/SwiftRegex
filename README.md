@@ -6,9 +6,11 @@
 
 Installation can be done via Swift Package Manager or by dragging Sources/SwiftRegex into your project.
 
+```swift
 dependencies: [
     .package(url: "https://github.com/flowbe/SwiftRegex.git", .upToNextMajor(from: "1.0.0"))
 ]
+```
 
 ## Example usage
 
