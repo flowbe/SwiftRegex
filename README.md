@@ -4,7 +4,11 @@
 
 ## Installation
 
-Just drop the `Regex.swift` into your Xcode project, that's it!
+Installation can be done via Swift Package Manager or by dragging Sources/SwiftRegex into your project.
+
+dependencies: [
+    .package(url: "https://github.com/flowbe/SwiftRegex.git", .upToNextMajor(from: "1.0.0"))
+]
 
 ## Example usage
 
